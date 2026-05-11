@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.MainContainer {
+
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+#startImg {
+    background-image: url(https://media.gettyimages.com/id/1457889029/photo/group-of-food-with-high-content-of-dietary-fiber-arranged-side-by-side.jpg?s=612x612&w=gi&k=20&c=YiNatAP0CzFSalhnkzSUFyy6XpVhBe3WSnRpu1W3pV4=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#mainImg {
+    background-image: url(https://img.freepik.com/free-psd/roasted-chicken-dinner-platter-delicious-feast_632498-25445.jpg?semt=ais_hybrid&w=740&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#dessertImg {
+    background-image: url(https://media.istockphoto.com/id/525029404/photo/selection-of-food-high-in-sugar.jpg?s=612x612&w=0&k=20&c=N7ijeuGsYx5S2BGshc1XKymiMLgrGTdvjDJH8MHW0ck=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.Main {
+    color: rgb(4, 167, 255);
+    border: 2px solid rebeccapurple;
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 20px;
+    background-color: #8352be;
+    width: 350px;
+
+
+}
+
+
+
+.starterText li {
+    color: rgba(4, 197, 251, 0.995);
+    margin: 20px;
+
+}
+
+
+
+.MainStarter {
+    margin: 20px;
+    padding: 5px;
+    color: rgb(61, 110, 159);
+
+
+}
+
+.Main_Course {
+    margin: 20px;
+    padding: 5px;
+    color: rgb(61, 110, 159);
+
+}
+
+.Dessert2 {
+    margin: 20px;
+    padding: 5px;
+    color: rgb(61, 110, 159);
+
+}
+
+.starter {
+    color: #042d6f;
+    font-weight: bolder;
+    margin: 20px;
+    padding: 30px;
+    width: 200px;
+    align-items: center;
+    font-size: 20px;
+    background-color: azure;
+
+
+
+
+}
+
+.maincourse {
+    color: rgba(83, 13, 235, 0.947);
+    background-color: azure;
+    margin: 20px;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 200px;
+}
+
+.dessert {
+    width: 200px;
+    color: rgb(236, 64, 7);
+    background-color: azure;
+    margin: 20px;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+}
